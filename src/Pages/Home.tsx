@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 
 const Home = () => {
   return (
-    <div className="helvetica text-center p-5">
+    <div className="text-center p-5">
       <img src={logo} alt="logo" className="mx-auto p-10" />
       <h1 className="text-4xl text-blue-400">Bootcamp Workshop</h1>
       <h3 className="text-xl text-gray-600 mt-2">Topics</h3>
