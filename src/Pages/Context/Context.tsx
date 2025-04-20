@@ -1,10 +1,4 @@
-import List from "./ListComponent/List";
-
-interface ContextProps {
-  courses: string[];
-}
-
-const Context = ({ courses }: ContextProps) => {
+const Context = () => {
   return (
     <div className="text-center p-10">
       <p className="p-2">The number of courses is ?</p>

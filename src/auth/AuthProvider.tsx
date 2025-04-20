@@ -2,11 +2,13 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 interface AuthContextType {
   loading: boolean;
+  setLoading: React.Dispatch<React.SetStateAction<boolean>>;
   isAuthenticated: boolean;
   firstName: string;
   lastName: string;
   email: string;
   courses: string[];
+  setCourses: React.Dispatch<React.SetStateAction<string[]>>;
 }
 
 // Authcontext that other components can subscribe to
@@ -42,7 +44,16 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   return (
     // Provide the AuthContext to children components
     <AuthContext.Provider
-      value={{ loading, isAuthenticated, firstName, lastName, email, courses }}
+      value={{
+        loading,
+        setLoading,
+        isAuthenticated,
+        firstName,
+        lastName,
+        email,
+        courses,
+        setCourses,
+      }}
     >
       {children}
     </AuthContext.Provider>

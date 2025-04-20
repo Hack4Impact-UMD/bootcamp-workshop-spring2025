@@ -14,7 +14,7 @@ function App() {
       <AuthProvider>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/context" element={<Context courses={courses} />} />
+          <Route path="/context" element={<Context />} />
           <Route path="/ref" element={<Ref />} />
           <Route path="/callback" element={<Callback />} />
         </Routes>

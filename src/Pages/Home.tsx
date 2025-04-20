@@ -8,11 +8,6 @@ const Home = () => {
       <h3 className="text-xl text-gray-600 mt-2">Topics</h3>
       <ul className="list-none">
         <li className="my-2">
-          <a href="/callback" className="text-blue-400 hover:underline">
-            Callback
-          </a>
-        </li>
-        <li className="my-2">
           <a href="/context" className="text-blue-400 hover:underline">
             Context
           </a>
@@ -20,6 +15,11 @@ const Home = () => {
         <li className="my-2">
           <a href="/ref" className="text-blue-400 hover:underline">
             Ref
+          </a>
+        </li>
+        <li className="my-2">
+          <a href="/callback" className="text-blue-400 hover:underline">
+            Callback
           </a>
         </li>
       </ul>
