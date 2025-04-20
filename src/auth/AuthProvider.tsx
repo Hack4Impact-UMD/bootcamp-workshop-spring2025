@@ -27,7 +27,16 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     setFirstName("John");
     setLastName("Doe");
     setEmail("john@gmail.com");
-    setCourses(["CMSC131", "CMSC132"]);
+    setCourses([
+      "CMSC131",
+      "CMSC132",
+      "CMSC250",
+      "CMSC330",
+      "CMSC414",
+      "CMSC420",
+      "CMSC451",
+      "CMSC472",
+    ]);
   }, []);
 
   return (

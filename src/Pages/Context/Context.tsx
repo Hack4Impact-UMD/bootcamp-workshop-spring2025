@@ -6,8 +6,8 @@ interface ContextProps {
 
 const Context = ({ courses }: ContextProps) => {
   return (
-    <div>
-      <p className="p-5">The number of courses is {courses.length}.</p>
+    <div className="text-center p-10">
+      <p className="p-2">The number of courses is ?</p>
     </div>
   );
 };

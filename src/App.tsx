@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./auth/AuthProvider";
-import Home from "./Pages/Home";
-import Callback from "./Pages/Callback/Callback";
-import Context from "./Pages/Context/Context";
-import Ref from "./Pages/Ref/Ref";
+import Home from "./pages/Home";
+import Callback from "./pages/Callback/Callback";
+import Context from "./pages/Context/Context";
+import Ref from "./pages/Ref/Ref";
 
 function App() {
   const [courses, setCourses] = useState<string[]>(["CMSC250", "CMSC330"]);
