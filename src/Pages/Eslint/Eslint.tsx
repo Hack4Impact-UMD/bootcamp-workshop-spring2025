@@ -3,25 +3,21 @@ import { useState } from 'react';
 const Eslint =  (    )  => {
   const [pixels, setPixels] = useState<any>(0);
 
-  // prefer-const
   let name = "Akash Patil"
   let adjustment = 0;
   let emoji = "😎";;
 
   let totalPixels = pixels + adjustment;
 
-  // no-cond-assign
   if    (totalPixels = 0) {
     emoji = "😢";
   }
 
-   // no-unused-vars
   const unusedVariable = 0;
 
 ;;;;;;;;;;
 
   const addPixels = () => {
-    //   no-const-assign
     const newPixels = 100
     newPixels = 1000000
 
