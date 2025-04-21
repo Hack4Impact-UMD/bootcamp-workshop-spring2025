@@ -22,6 +22,11 @@ const Home = () => {
             Callback
           </a>
         </li>
+        <li className="my-2">
+          <a href="/eslint" className="text-blue-400 hover:underline">
+            Eslint
+          </a>
+        </li>
       </ul>
     </div>
   );
